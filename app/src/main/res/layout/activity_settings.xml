@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Access Key (AK)"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/editAk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:minHeight="52dp"
+            android:padding="14dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:background="@drawable/edit_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secret Key (SK)"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/editSk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:minHeight="52dp"
+            android:padding="14dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:background="@drawable/edit_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="项目 ID"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/editProjectId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:minHeight="52dp"
+            android:padding="14dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:background="@drawable/edit_bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="区域"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="6dp" />
+
+        <EditText
+            android:id="@+id/editRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:minHeight="52dp"
+            android:padding="14dp"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:background="@drawable/edit_bg"
+            android:text="cn-north-4" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:text="保存"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1976D2" />
+
+    </LinearLayout>
+
+</ScrollView>
